@@ -4,3 +4,6 @@
 [submodule "Homeworks/2"]
 	path = Homeworks/2
 	url = https://github.com/GoJIub/OOP_lab2.git
+[submodule "Homeworks/3"]
+	path = Homeworks/3
+	url = https://github.com/GoJIub/OOP_lab3.git
