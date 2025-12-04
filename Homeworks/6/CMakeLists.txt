@@ -42,7 +42,10 @@ enable_testing()
 
 add_executable(tests
     test/tests.cpp
-    src/MemoryResource.cpp
+    src/npc.cpp
+    src/orc.cpp
+    src/squirrel.cpp
+    src/bear.cpp
 )
 
 target_include_directories(tests PRIVATE
