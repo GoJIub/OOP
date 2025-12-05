@@ -30,7 +30,10 @@ include_directories(
 # === Основная программа ===
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    src/MemoryResource.cpp
+    src/npc.cpp
+    src/orc.cpp
+    src/squirrel.cpp
+    src/bear.cpp
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
